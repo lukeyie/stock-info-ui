@@ -43,7 +43,7 @@ const PERatio: React.FunctionComponent<PERatioProps> = () => {
                                 return (
                                     <tr>
                                         <td>{item.year}</td>
-                                        <td>{item.peRatio}</td>
+                                        <td>{item.peRatio.toFixed(2)}</td>
                                     </tr>
                                 )
                             })}
