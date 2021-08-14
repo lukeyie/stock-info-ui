@@ -1,0 +1,38 @@
+.peRatioForm {
+  height: 100%;
+  width: 600px;
+  text-align: center;
+  background-color: #97d8ec;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border-radius: 20px;
+
+  table {
+    padding: 20px;
+    width: 500px;
+  }
+
+  th {
+    background-color: rgb(177, 106, 104);
+    font-size: 12px;
+    font-family: Verdana;
+    height: 30px;
+    border-radius: 3px;
+  }
+
+  td {
+    height: 25px;
+    border-radius: 3px;
+  }
+
+  tr:nth-child(odd) {
+    background: rgb(238, 211, 210);
+  }
+
+  tr:nth-child(even) {
+    background: #fff;
+  }
+}
